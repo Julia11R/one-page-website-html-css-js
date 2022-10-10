@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Usługi graficzne</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/be777be7fd.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar" tabindex="0">
+    <header id="strona-glowna">
+      <nav id="navbar" class="navbar navbar-expand-lg fixed-top py-3">
+        <div class="container">
+          <a class="navbar-brand" href="#strona-glowna"
+            ><span class="fas fa-rainbow"></span>Usługi graficzne</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="fas fa-bars"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#strona-glowna"
+                >Strona główna</a
+              >
+              <a class="nav-link" href="#o-mnie">O mnie</a>
+              <a class="nav-link" href="#uslugi-graficzne">Usługi graficzne</a>
+              <a class="nav-link" href="#porfolio">Portfolio</a>
+              <a class="nav-link" href="#kontakt">Kontakt</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="hero-bg"></div>
+      <div class="hero-text">
+        <h1 class="hero-title">Usługi <span>Graficzne</span></h1>
+        <p class="hero-description">Razem możemy stworzyć coś pięknego</p>
+        <a
+          href="#uslugi-graficzne"
+          type="button"
+          class="hero-btn btn btn-outline-light"
+          >Porozmawiajmy o współpracy</a
+        >
+      </div>
+      <a class="hero-icon" href="#uslugi-graficzne"
+        ><span class="fas fa-sort-down"></span
+      ></a>
+    </header>
+    <main>
+      <section id="o-mnie" class="about py-5">
+        <div class="container">
+          <h2>O mnie</h2>
+          <div class="underline"></div>
+          <div class="row py-4">
+            <div class="col-md-4 text-center about-hover">
+              <div class="about-card-box p-3">
+                <p><span class="fas fa-hourglass-half"></span></p>
+                <p class="about-card-title">Wieloletnie doświadcznie</p>
+                <p class="about-card-text">
+                  Wiedzą i praktyką nabytymi podczas ponad 20-letniej pracy
+                  dzielę się nie tylko z klientami, ale także młodymi adeptami
+                  zawodu. Prowadziłem zajęcia między innymi dla studentów
+                  Wrocławskiej Akademi Sztuki.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 text-center about-hover">
+              <div class="about-card-box p-3">
+                <p><span class="fas fa-network-wired"></span></p>
+                <p class="about-card-title">Sieć zufanych partnerów</p>
+                <p class="about-card-text">
+                  W miarę zdobywania doświadczenia i realizowania różnorodnych
+                  projektów udało mi się nawiązać współpracę z wieloma
+                  specjalistami, na których profesjonalne usługi mogę liczyć ja
+                  i moi klienci. Współpracuję między innymi z drukarniami,
+                  webdewolperami, marketingowcam, fotografami. Dzięki temu mogę
+                  świadczyć swoje usługi kompleksowo lub - w razie potrzeby -
+                  polecić sprawdzonego specjalistę do współpracy.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 text-center about-hover">
+              <div class="about-card-box p-3">
+                <p>
+                  <span class="fas fa-retweet"></span>
+                </p>
+                <p class="about-card-title">Elastyczność i otwartość</p>
+                <p class="about-card-text">
+                  Niesłabnące zainteresowanie grafiką i drukiem, pozwalają mi
+                  stałe aktualizowanie wiedzy i doskonalenie umiejętności w tej
+                  dziedzinie. Jako niezależny grafk komputerowy, mogę dopasować
+                  model współpracy do aktualnych potrzeb klienta.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="cta">
+        <div class="container cta-container">
+          <p class="m-10 cta-text">
+            Potrzebujesz pomocy grafika komputerowego?
+          </p>
+          <a href="#kontakt" class="cta-button"> Zapytaj o wstępną wycenę </a>
+        </div>
+      </section>
+      <section id="uslugi-graficzne" class="services py-5">
+        <div class="container overflow-hidden">
+          <h2>Usługi graficzne</h2>
+          <div class="underline"></div>
+          <div class="row py-4 g-4">
+            <div class="services-card col-lg-4 text-center">
+              <div class="services-img left"></div>
+              <p class="services-card-title">Obróbka graficzna zjdęć</p>
+              <p class="services-card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                voluptates temporibus ullam perferendis incidunt veritatis qui
+                maxime magni, animi officia numquam assumenda minima placeat
+                amet, nisi, nihil eius minus omnis.
+              </p>
+            </div>
+            <div class="services-card col-lg-4 text-center">
+              <div class="services-img middle"></div>
+              <p class="services-card-title">
+                Projektowanie materiałów do druku
+              </p>
+              <p class="services-card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                voluptates temporibus ullam perferendis incidunt veritatis qui
+                maxime magni, animi officia numquam assumenda minima placeat
+                amet, nisi, nihil eius minus omnis.
+              </p>
+            </div>
+            <div class="services-card col-lg-4 text-center">
+              <div class="services-img right"></div>
+              <p class="services-card-title">Grafiki do Internetu</p>
+              <p class="services-card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                voluptates temporibus ullam perferendis incidunt veritatis qui
+                maxime magni, animi officia numquam assumenda minima placeat
+                amet, nisi, nihil eius minus omnis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="porfolio" class="portfolio py-5">
+        <div class="container pb-4">
+          <h2>Portfolio</h2>
+          <div class="underline"></div>
+          <div class="row py-4">
+            <div class="col-md-12 text-center mb-3">
+              <div class="card mb-4">
+                <img
+                  src="https://cdn.pixabay.com/photo/2016/11/18/22/21/restaurant-1837150_1280.jpg"
+                  class="card-img-top"
+                  alt="zdjęcie hotelowej restauracji"
+                />
+                <div class="card-body pb-4">
+                  <h5 class="card-title pb-3">
+                    HOTEL KOWALSKI - projekt strony internetowej, identyfikacja
+                    wizualna
+                  </h5>
+                  <p class="card-text pb-3">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a
+                    href="#"
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#portfolio-project-one"
+                    class="portfolio-btn"
+                    >Więcej szczegółów</a
+                  >
+                  <div
+                    class="modal fade"
+                    id="portfolio-project-one"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="staticBackdropLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog modal-fullscreen-xl-down modal-xl">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="staticBackdropLabel">
+                            HOTEL KOWALSKI - projekt strony internetowej,
+                            identyfikacja wizualna
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <img
+                            class="img-fluid py-3"
+                            src="https://cdn.pixabay.com/photo/2017/01/04/20/15/web-design-1953128_1280.jpg"
+                            alt="zdjęcie laptopa z wyświetloną stroną internetową"
+                          />
+                          <img
+                            class="img-fluid py-3"
+                            src="https://cdn.pixabay.com/photo/2016/12/19/08/39/mobile-phone-1917737_1280.jpg"
+                            alt="zdjęcie smartfona z wyświetloną stroną internetową"
+                          />
+                          <p class="pt-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ratione totam et animi. Ea veniam unde commodi
+                            perferendis est quisquam non vitae iusto, delectus
+                            officia at, reiciendis eius labore, sunt sequi!
+                          </p>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Zamknij
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 text-center mb-3">
+              <div class="card">
+                <img
+                  src="https://cdn.pixabay.com/photo/2021/09/11/20/40/frames-6616615_1280.jpg"
+                  class="card-img-top"
+                  alt="zdjęcie "
+                />
+                <div class="card-body pb-4">
+                  <h5 class="card-title pb-3">
+                    RESTAURACJA KOLIBER - identyfikacja wizualna, projekty
+                    ulotek, projekt menu
+                  </h5>
+                  <p class="card-text pb-3">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a
+                    href="#"
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#portfolio-project-two"
+                    class="portfolio-btn"
+                    >Więcej szczegółów</a
+                  >
+                  <div
+                    class="modal fade"
+                    id="portfolio-project-two"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="staticBackdropLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog modal-fullscreen-xl-down modal-xl">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="staticBackdropLabel">
+                            RESTAURACJA KOLIBER - identyfikacja wizualna,
+                            projekty ulotek
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <img
+                            class="img-fluid py-3"
+                            src="https://cdn.pixabay.com/photo/2021/02/02/22/48/barbecue-restaurant-5975755_1280.png"
+                            alt="logo restauracji"
+                          />
+                          <img
+                            class="img-fluid py-3"
+                            src="https://cdn.pixabay.com/photo/2016/07/06/23/08/asia-food-1501584_1280.jpg"
+                            alt="kolaż zdjęć przedstawiających różne potrawy"
+                          />
+                          <p class="pt-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ratione totam et animi. Ea veniam unde commodi
+                            perferendis est quisquam non vitae iusto, delectus
+                            officia at, reiciendis eius labore, sunt sequi!
+                          </p>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Zamknij
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 text-center mb-3">
+              <div class="card">
+                <img
+                  src="https://cdn.pixabay.com/photo/2016/11/29/06/17/audience-1867754_1280.jpg"
+                  class="card-img-top"
+                  alt="zdjęcie koncertu"
+                />
+                <div class="card-body pb-4">
+                  <h5 class="card-title pb-3">
+                    EVENT MANAGMENT - projekty plakatów, grafiki do mediów
+                    społecznościowych ulotek
+                  </h5>
+                  <p class="card-text pb-3">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a
+                    href="#"
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#portfolio-project-three"
+                    class="portfolio-btn"
+                    >Więcej szczegółów</a
+                  >
+                  <div
+                    class="modal fade"
+                    id="portfolio-project-three"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="staticBackdropLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog modal-fullscreen-xl-down modal-xl">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="staticBackdropLabel">
+                            EVENT MANAGMENT - projekty plakatów, grafiki do
+                            mediów społecznościowych ulotek
+                          </h5>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div class="modal-body">
+                          <img
+                            class="img-fluid py-3"
+                            src="https://cdn.pixabay.com/photo/2017/06/29/00/11/poster-2452658_1280.jpg"
+                            alt="plakat koncertu"
+                          />
+                          <img
+                            class="img-fluid py-3"
+                            src="https://cdn.pixabay.com/photo/2012/12/14/11/36/music-69990_1280.jpg"
+                            alt="ulotka koncertu"
+                          />
+                          <p class="pt-3">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ratione totam et animi. Ea veniam unde commodi
+                            perferendis est quisquam non vitae iusto, delectus
+                            officia at, reiciendis eius labore, sunt sequi!
+                          </p>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                          >
+                            Zamknij
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="logo-carousel" class="py-5">
+        <div class="container">
+          <h3>Moi klienci</h3>
+
+          <div class="logo-carousel">
+            <div class="logo-slide">
+              <img
+                class="logo-img"
+                src="https://cdn.pixabay.com/photo/2016/10/18/05/52/android-logo-1749407_1280.png"
+                alt="logo"
+              />
+            </div>
+            <div class="logo-slide">
+              <img
+                class="logo-img"
+                src="https://cdn.pixabay.com/photo/2016/02/10/19/34/wikimedia-community-logo-lgbt-1192365_1280.png"
+                alt="logo"
+              />
+            </div>
+            <div class="logo-slide">
+              <img
+                class="logo-img"
+                src="https://cdn.pixabay.com/photo/2017/03/16/21/18/logo-2150297_1280.png"
+                alt="logo"
+              />
+            </div>
+            <div class="logo-slide">
+              <img
+                class="logo-img"
+                src="https://cdn.pixabay.com/photo/2016/12/17/15/50/logo-1913689_1280.png"
+                alt="logo"
+              />
+            </div>
+            <div class="logo-slide">
+              <img
+                class="logo-img"
+                src="https://cdn.pixabay.com/photo/2015/08/27/11/20/bitcoin-910307_1280.png"
+                alt="logo"
+              />
+            </div>
+            <div class="logo-slide">
+              <img
+                class="logo-img"
+                src="https://cdn.pixabay.com/photo/2018/05/08/21/28/apple-3384010_1280.png"
+                alt="logo"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="kontakt" class="contact py-5">
+        <div class="container">
+          <h2>Kontakt</h2>
+          <div class="underline"></div>
+          <div class="row">
+            <div class="col-md-4 d-flex text-center">
+              <div class="contact-box w-100">
+                <h4>Napisz do mnie</h4>
+                <a class="icon-bg" href="mailto:-mail@mail.com"
+                  ><span class="fas fa-envelope"></span
+                ></a>
+                <a href="mailto:-mail@mail.com">e-mail@mail.com</a>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex text-center">
+              <div class="contact-box w-100">
+                <h4>Zadzwoń</h4>
+                <a class="icon-bg" href="tel:333333333"
+                  ><span class="fas fa-phone"></span
+                ></a>
+                <a href="tel:333333333">333 333 333</a>
+                <!-- <p></p> -->
+              </div>
+            </div>
+            <div class="col-md-4 d-flex text-center">
+              <div class="contact-box w-100">
+                <h4>Dane adresowe</h4>
+                <p class="icon-bg"><span class="fas fa-address-card"></span></p>
+                <p>
+                  ul. Sportowa 43/5, <br />
+                  45-332 Miejscowość
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-dark text-light text-center py-4">
+      <p class="mb-0">&copy; 2022 &nbsp;&nbsp;|&nbsp;&nbsp;Usługi graficzne</p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="js/slick-carousel.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
